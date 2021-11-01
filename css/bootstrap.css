@@ -3427,7 +3427,7 @@ html {
     height: 34px;
     line-height: 34px;
     text-align: center;
-    pointer-events: none;
+    
   }
   
   .form-group-lg .form-control + .form-control-feedback,
@@ -3720,10 +3720,6 @@ html {
     opacity: 0.65;
   }
   
-  a.btn.disabled,
-  fieldset[disabled] a.btn {
-    pointer-events: none;
-  }
   
   .btn-default {
     color: #333;
@@ -4295,7 +4291,7 @@ html {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
   }
@@ -4431,7 +4427,7 @@ html {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9;
+    border-bottom: 4px solid;
   }
   
   .dropup .dropdown-menu,
@@ -4659,7 +4655,7 @@ html {
   [data-toggle="buttons"] > .btn-group > .btn input[type="radio"] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
-    pointer-events: none;
+    
   }
   
   .input-group {
@@ -5137,7 +5133,7 @@ html {
     max-height: 340px;
   }
   
-  @media (max-device-width: 480px) and (orientation: landscape) {
+  @media (max-width: 480px) and (orientation: landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
       max-height: 200px;
@@ -7974,7 +7970,7 @@ html {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px;
